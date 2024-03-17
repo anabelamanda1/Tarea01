@@ -1,1 +1,41 @@
-inicio de la sesión
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trabajo 01</title>
+</head>
+<body>
+</body>
+<script>
+    //JSON
+    const AreaTriangulo = [
+        {
+            "Base": 12,
+            "Altura": 2
+        },
+        {
+            "Base": 6,
+            "Altura": 9
+        },
+        {
+            "Base": 10,
+            "Altura": 5
+        },
+        {
+            "Base": 9,
+            "Altura": 10
+        },
+        {
+            "Base": 17,
+            "Altura": 4
+        }
+    ];
+
+    function Area_Triangulo(Base, Altura){
+        console.log(Base+" y "+Altura+" es igual a "+(Base * Altura)/2)
+    }
+    AreaTriangulo.forEach(e => {
+        Area_Triangulo(e.Base, e.Altura);
+    });
+
+</script>
+</html>
