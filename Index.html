@@ -31,10 +31,11 @@
     ];
 
     function Area_Triangulo(Base, Altura){
-        console.log(Base+" y "+Altura+" es igual a "+(Base * Altura)/2)
+        var Area = (Base * Altura)/2;
+        console.log(Base+" y "+Altura+" es igual a "+Area)
     }
     AreaTriangulo.forEach(e => {
-        Area_Triangulo(e.Base, e.Altura);
+        Area_Triangulo(e.Base, e.Altura, e.Area);
     });
 
 </script>
